@@ -8,20 +8,20 @@
 <body>
     <!-- Create a root element -->
 
-    <div id="root111">dsds</div>
+    <div id="react-container">dsds</div>
 
     <!-- Include React and ReactDOM -->
     <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
 
     <!-- Include your compiled JavaScript file -->
-    <script src="./dist/my-component.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Muhammedfazilneopraxis/react-component-render@master/dist/my-component.bundle.js"></script>
 
     <script>
         // Render the React component
         ReactDOM.render(
             React.createElement(MyComponent.default),
-            document.getElementById('root111')
+            document.getElementById('react-container')
         );
     </script>
 </body>
